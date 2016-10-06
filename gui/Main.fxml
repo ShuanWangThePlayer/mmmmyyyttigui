@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainController">
+   <children>
+      <Label fx:id="lfrom" layoutX="46.0" layoutY="37.0" prefHeight="42.0" prefWidth="97.0" text="From:" />
+      <Label fx:id="lto" layoutX="329.0" layoutY="37.0" prefHeight="42.0" prefWidth="97.0" text="To:" />
+      <ComboBox fx:id="cbox1" layoutX="40.0" layoutY="90.0" prefHeight="51.0" prefWidth="206.0" promptText="Start..." />
+      <ComboBox fx:id="cbox2" layoutX="314.0" layoutY="90.0" prefHeight="51.0" prefWidth="225.0" promptText="Destination..." />
+      <Button fx:id="btshow" layoutX="625.0" layoutY="422.0" mnemonicParsing="false" text="Show Credit" />
+      <Button fx:id="bts" layoutX="82.0" layoutY="506.0" mnemonicParsing="false" text="Save" />
+      <Button fx:id="btq" layoutX="693.0" layoutY="506.0" mnemonicParsing="false" onAction="#end" text="Quit" />
+      <Label fx:id="zone" layoutX="46.0" layoutY="155.0" text="Zone:" />
+      <Label fx:id="time" layoutX="314.0" layoutY="155.0" text="Time:" />
+      <ComboBox fx:id="cboxz" layoutX="40.0" layoutY="216.0" prefHeight="51.0" prefWidth="206.0" promptText="Select zone..." />
+      <ComboBox fx:id="cboxt" layoutX="314.0" layoutY="216.0" prefHeight="51.0" prefWidth="206.0" promptText="Select valid time..." />
+      <TextField fx:id="tf1" layoutX="40.0" layoutY="336.0" prefHeight="51.0" prefWidth="206.0" promptText="mon/tue etc." />
+      <TextField fx:id="tf2" layoutX="314.0" layoutY="336.0" prefHeight="51.0" prefWidth="236.0" promptText="e.g.: 1000 for 10am" />
+      <Label fx:id="td" layoutX="40.0" layoutY="279.0" prefHeight="42.0" prefWidth="141.0" text="Travel Day:" />
+      <Label fx:id="st" layoutX="314.0" layoutY="279.0" prefHeight="42.0" prefWidth="141.0" text="Start time:" />
+      <TextField fx:id="tf3" layoutX="40.0" layoutY="425.0" prefHeight="51.0" prefWidth="206.0" promptText="Key in your MyTi ID" />
+      <Label fx:id="id" layoutX="46.0" layoutY="387.0" text="Card ID:" />
+      <Label fx:id="status" layoutX="314.0" layoutY="430.0" prefHeight="42.0" prefWidth="225.0" text="Status" />
+      <Button fx:id="bta" layoutX="223.0" layoutY="506.0" mnemonicParsing="false" onAction="#gotoAdd" text="Add user/Top up" />
+      <Button fx:id="btr" layoutX="455.0" layoutY="506.0" mnemonicParsing="false" onAction="#gotoReport" text="Report manage" />
+   </children>
+</AnchorPane>

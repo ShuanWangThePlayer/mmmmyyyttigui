@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.AddTopController">
+   <children>
+      <TextField fx:id="atf1" layoutX="43.0" layoutY="113.0" promptText="EnterID......" />
+      <TextField fx:id="atf2" layoutX="37.0" layoutY="227.0" promptText="RechargeNumer......" />
+      <Label fx:id="aid" layoutX="43.0" layoutY="53.0" text="MyTi ID:" />
+      <Label fx:id="atp" layoutX="43.0" layoutY="181.0" text="TopUp Number:" />
+      <Label fx:id="astatus" layoutX="43.0" layoutY="300.0" text="Status" textFill="#da0c0c" />
+      <Label fx:id="anid" layoutX="479.0" layoutY="53.0" text="New ID:" />
+      <Label fx:id="aun" layoutX="479.0" layoutY="181.0" text="User name:" />
+      <Label fx:id="aemail" layoutX="479.0" layoutY="300.0" text="E-mail:" />
+      <TextField fx:id="atf3" layoutX="456.0" layoutY="113.0" promptText="EnterID......" />
+      <TextField fx:id="atf4" layoutX="456.0" layoutY="227.0" promptText="Enter name..." />
+      <TextField fx:id="atf5" layoutX="456.0" layoutY="344.0" promptText="Enter email address....." />
+      <Button fx:id="bttp" layoutX="35.0" layoutY="363.0" mnemonicParsing="false" text="Top up" />
+      <Button fx:id="btas" layoutX="546.0" layoutY="414.0" mnemonicParsing="false" text="Save" />
+      <Button fx:id="btaq" layoutX="620.0" layoutY="497.0" mnemonicParsing="false" onAction="#end" text="Quit" />
+      <Button fx:id="bttpm" layoutX="53.0" layoutY="497.0" mnemonicParsing="false" onAction="#gotoMain" text="Travel pass purchase" />
+      <Button fx:id="btrm" layoutX="350.0" layoutY="497.0" mnemonicParsing="false" onAction="#gotoReport" text="Report manage" />
+   </children>
+</AnchorPane>

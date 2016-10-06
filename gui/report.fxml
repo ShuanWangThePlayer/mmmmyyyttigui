@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600" prefWidth="800" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ReportController">
+   <children>
+      <Label fx:id="lb1" layoutX="51.0" layoutY="39.0" text="Report:" />
+      <ListView fx:id="lv" layoutX="51.0" layoutY="85.0" prefHeight="342.0" prefWidth="665.0" />
+      <Button fx:id="bt1" layoutX="21.0" layoutY="485.0" mnemonicParsing="false" onAction="#gotoMain" text="TravelPass Purchase" />
+      <Button fx:id="bt2" layoutX="319.0" layoutY="485.0" mnemonicParsing="false" onAction="#gotoAdd" text="Top up/Add user" />
+      <Button fx:id="bt3" layoutX="616.0" layoutY="485.0" mnemonicParsing="false" onAction="#end" text="Quit" />
+   </children>
+</AnchorPane>
